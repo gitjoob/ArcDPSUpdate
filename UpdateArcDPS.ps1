@@ -1,4 +1,4 @@
-wget https://www.deltaconnected.com/arcdps/x64/d3d11.dll -O 'F:\Guild Wars 2\ArcDPSUpdate\d3d11.dll'
+Invoke-WebRequest https://www.deltaconnected.com/arcdps/x64/d3d11.dll -O 'F:\Guild Wars 2\ArcDPSUpdate\d3d11.dll'
 
 $newfile = Get-Item 'F:\Guild Wars 2\ArcDPSUpdate\d3d11.dll'
 $currentfile = Get-Item 'F:\Guild Wars 2\d3d11.dll'
